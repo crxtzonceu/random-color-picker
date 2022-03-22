@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Random Color Generator</title>
+  </head>
+
+  <body>
+    <!-- Header Section -->
+    <section class="header">
+      <h1><span class="red">Random</span> <span class="green">Color</span> <span class="blue">Generator</span></h1>
+      <!-- 3 buttons  -->
+      <div class="flex">
+        <button class="switch-btn btn" id="col-btn" onclick="colButton()">Column</button>
+        <button class="generate-btn btn" id="generate-btn">Generate</button>
+        <button class="switch-btn btn" id="row-btn" onclick="rowButton()">Row</button>
+      </div>
+    </section>
+
+    <!-- Main Column  -->
+    <section class="main-col" id="main-col">
+      <section class="center" id="col-1"></section>
+      <section class="center" id="col-2">#FFFFFF</section>
+      <section class="center" id="col-3"></section>
+    </section>
+
+    <!-- Main Row -->
+    <section class="main-row" id="main-row">
+      <section class="center" id="row-1"></section>
+      <section class="center" id="row-2"></section>
+      <section class="center" id="row-3">#FFFFFF</section>
+      <section class="center" id="row-4"></section>
+      <section class="center" id="row-5"></section>
+    </section>
+    <script src="js/program.js"></script>
+  </body>
+</html>
